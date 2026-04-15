@@ -1,22 +1,17 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "HTML: Images with <img>",
+    "slug": "html-images-with-img",
+    "description": "A description of how to use the <img> tag to insert images into HTML documents.",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "html"
     ],
-    "duration": 0,
+    "duration": 4,
     "prerequisites": [
-        "",
-        ""
+        "html-tags-elements"
     ],
     "related": [
-        "",
-        ""
     ]
 }
