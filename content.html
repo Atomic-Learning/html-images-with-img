@@ -1,12 +1,12 @@
-<p>In a HTML file, the <code class="language-html">&lt;img&gt;</code> tag is used to insert images. The element is a void element, meaning it does not have a closing tag.</p>
+<p>In an HTML file, the <code class="language-html">&lt;img&gt;</code> tag is used to insert images. The element is a void element, meaning it does not have a closing tag.</p>
 
-<h2>The <code class="language-html">&lt;src&gt;</code> Attribute</h2>
+<h2>The <code class="language-html">src</code> Attribute</h2>
 
-<p>The <code class="language-html">&lt;img&gt;</code> tag requires the <code class="language-html">&lt;src&gt;</code> attribute, which specifies the URL of the image to be displayed. The value of the <code class="language-html">&lt;src&gt;</code> attribute can be a relative or absolute path URL. Different tools used to make and store websites will have different ways that image files can be stored and served, and this will affect the exact syntax required in the path provided to <code class="language-html">&lt;src&gt;</code>.</p>
+<p>The <code class="language-html">&lt;img&gt;</code> tag requires the <code class="language-html">src</code> attribute, which specifies the URL of the image to be displayed. The value of the <code class="language-html">src</code> attribute can be a relative or absolute URL. Different tools used to make and store websites will have different ways that image files can be stored and served, and this will affect the exact syntax required in the path provided to <code class="language-html">src</code>.</p>
 
-<h2>The <code class="language-html">&lt;alt&gt;</code> Attribute</h2>
+<h2>The <code class="language-html">alt</code> Attribute</h2>
 
-<p>The <code class="language-html">&lt;alt&gt;</code> attribute is not required, but it is good practice to include it every time you use the <code class="language-html">&lt;img&gt;</code> tag. The <code class="language-html">&lt;alt&gt;</code> attribute provides alternative text for the image if it cannot be displayed. This is important for accessibility, as it allows screen readers to describe the image to users who are visually impaired.</p>
+<p>The <code class="language-html">alt</code> attribute is not required by the parser, but it should almost always be included when you use the <code class="language-html">&lt;img&gt;</code> tag. The <code class="language-html">alt</code> attribute provides alternative text for the image if it cannot be displayed. This is important for accessibility, as it allows screen readers to describe the image to users who are visually impaired. If an image is purely decorative, use an empty value (<code class="language-html">alt=""</code>) so assistive technologies can ignore it. Alternative text should describe the image's purpose in context, rather than generic text such as "image".</p>
 
 <h2>Examples</h2>
 
@@ -17,8 +17,6 @@
 <p>This will render as:</p>
 
 <img src="resources/image.png" alt="Description of the image">
-
-<p>Hover your mouse over the image to see the alternative text.</p>
 
 <p>In the example below, a path is given to an image file that does not exist. Note how the browser displays the alternative text instead:</p>
 
